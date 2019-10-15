@@ -1,5 +1,5 @@
 {
-  "name": "short-node",
+  "name": "@oppie/short",
   "version": "0.1.0",
   "description": "A Node.js wrapper for the short API",
   "main": "lib/short.js",
@@ -10,7 +10,8 @@
     "mocha": "mocha",
     "test": "npm run lint && npm run mocha",
     "lint": "eslint --ext .js,.jsx .",
-    "fix": "yarn lint --fix"
+    "fix": "yarn lint --fix",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "short",
