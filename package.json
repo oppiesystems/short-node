@@ -1,0 +1,45 @@
+{
+  "name": "short-node",
+  "version": "0.1.0",
+  "description": "A Node.js wrapper for the short API",
+  "main": "lib/short.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "mocha": "mocha",
+    "test": "npm run lint && npm run mocha",
+    "lint": "eslint --ext .js,.jsx .",
+    "fix": "yarn lint --fix"
+  },
+  "keywords": [
+    "short",
+    "content",
+    "summarization",
+    "api"
+  ],
+  "homepage": "https://short.oppie.io",
+  "author": "Team Oppie <team@oppie.io>",
+  "contributors": [
+    "Pat Migliaccio <pat@oppie.io>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oppiesystems/short-node.git"
+  },
+  "bugs:": "https://github.com/oppiesystems/short-node/issues",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "mocha": "^6.2.1",
+    "prettier": "^1.18.2"
+  }
+}
